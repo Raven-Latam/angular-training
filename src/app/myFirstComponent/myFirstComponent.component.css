@@ -1,11 +1,11 @@
-.message {
-  background-color: rgb(206, 211, 211);
-  display: flex;
-  flex-direction: column;
-  width: 200px;
+.btnShow {
   margin-top: 10px;
-  padding: 10px;
+  margin-left: 10px;
 }
-button {
-  padding: 5px;
+
+.card {
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 350px;
+  padding: 10px;
 }
