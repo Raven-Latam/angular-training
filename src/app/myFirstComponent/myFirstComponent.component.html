@@ -1,0 +1,8 @@
+<button (click)="showMessage()">Haz clic aqui</button>
+
+@if (isShow()) {
+  <div class="message">
+    <p>Haz hecho click en el boton!</p>
+    <button (click)="closeMessage()">Cerrar mensaje</button>
+  </div>
+}
