@@ -1,0 +1,161 @@
+
+
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  gap: 20px;
+  overflow: hidden;
+}
+
+.card-component {
+  width: 300px;
+  /* height: 400px; */
+  background-color: rgb(123, 106, 84);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.division-section {
+  border-bottom: 2px dotted white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-information {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 90%;
+  margin-top: 15px;
+}
+
+.card-beneficios {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  width: 90%;
+  margin-top: 15px;
+}
+
+.text {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: white;
+  font-weight:lighter;
+}
+
+.level-text {
+  font-size: 25px;
+}
+
+.progress-bar-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.bottom-progress-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content-beneficios {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.beneficio {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.p-text {
+  font-size: 13px;
+}
+
+.footer-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+span {
+  font-weight: bold;
+}
+
+svg {
+  color: white;
+}
+
+.level-update {
+  background-color: rgb(84, 106, 130);
+  position: relative;
+}
+.information-success {
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.img-confeti {
+  position: absolute;
+  width: 100%;
+}
+
+.divison-success {
+  border: 1px solid white;
+}
+
+.information {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.new-benefits-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.new-benefit {
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.info-name{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 3px;
+}
+
+.text-success {
+  color: black;
+  font-size: 12px;
+}
