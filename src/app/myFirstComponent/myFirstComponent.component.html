@@ -1,0 +1,12 @@
+<button class="btnShow" mat-raised-button (click)="showMessage()">Haz click aqui</button>
+
+@if (isShow()) {
+<mat-card class="card" appearance="outlined">
+  <mat-card-header>
+    <mat-card-title>Haz hecho click en el boton!</mat-card-title>
+  </mat-card-header>
+  <mat-card-actions align="start">
+    <button (click)="closeMessage()" mat-flat-button>Cerrar Mensaje</button>
+  </mat-card-actions>
+</mat-card>
+}
